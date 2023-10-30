@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:ftpconnect/ftpconnect.dart';
 
-class EFITEPE {
+class Ftp {
   late FTPConnect ftpConnect;
 
   void conectar() async {
