@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ftpconnecttest/EFITEPE.dart';
+import 'package:ftpconnecttest/ftp.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatelessWidget {
   MyHomePage({super.key});
 
-  final EFITEPE ftp = EFITEPE();
+  final Ftp ftp = Ftp();
 
   @override
   Widget build(BuildContext context) {
