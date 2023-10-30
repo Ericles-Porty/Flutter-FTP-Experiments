@@ -8,8 +8,8 @@ class EFITEPE {
   void conectar() async {
     ftpConnect = FTPConnect(
       '192.168.2.1',
-      user: 'ipti',
-      pass: 'p@s4ipti',
+      user: '',
+      pass: '',
       port: 21,
       securityType: SecurityType.FTP,
       //logger: Logger(isEnabled: true),
